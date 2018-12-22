@@ -1,0 +1,78 @@
+<style>
+
+  div {
+    border-radius: 20px;
+    width: 70%;
+    height: 400px;
+    margin: 50px auto;
+    background: linear-gradient(35deg, #FF0000, #008000);
+    border: 10px solid silver;
+  }
+  .balls  {
+    border-radius: 50%;
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    top: 60%;
+    animation-name: jump;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+  }
+  #red {
+    background: green;
+    left: 25%;
+    animation-timing-function: linear;
+  }
+  #blue {
+    background: silver;
+    left: 50%;
+    animation-timing-function: ease-out;
+  }
+  #green {
+    background: red;
+    left: 75%;
+    animation-timing-function: ease-in;
+  }
+
+  @keyframes jump {
+    50% {
+      top: 10%;
+    }
+  }
+
+  h1 {
+    font-family: monospace;
+    font-size: 36px;
+    text-align: center;
+    color: #fff;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  p {
+    font-family: monospace;
+    font-size: 20px;
+    text-align: center;
+    color: #fff;
+  }
+  a   {
+    color: #fff;
+  }
+  h2  {
+    font-family: cursive;
+    font-size: 25px;
+    text-align: center;
+    color: #fff;
+    padding: 50px;
+  }
+</style>
+
+<div>
+  <div class="balls" id="red"></div>
+  <div class="balls" id="blue"></div>
+  <div class="balls" id="green"></div>
+  <h1>"Kringles" for Adam</h1>
+  <p><a href="http://www.thesemisweetsisters.com/2016/12/20/old-fashioned-sour-cream-drop-sugar-cookies/" target="_blank">Version One</a></p>
+  <p><a href="https://www.cozycountryliving.com/grandmas-sour-cream-drop-cookies/" target="_blank">Version Two</a></p>
+  <p><a href="https://www.tasteofhome.com/recipes/sour-cream-drops/" target="_blank">Version Three</a></p>
+  <h2>&#9829;Bets</h2>
+</div>
